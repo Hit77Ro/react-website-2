@@ -14,7 +14,7 @@ const Achievements = () => (
           Various versions have evolved over the years, sometimes by accident.
         </p>
       </div>
-      <div className="mt-3 grid  flex-1 grid-cols-2 justify-between  gap-[50px] py-10 md:mt-10">
+      <div className="mt-3 grid  flex-1 grid-cols-2 justify-between  gap-x-2 gap-y-14 py-10 sm:gap-x-20 md:mt-10">
         {achievements.map((achievement) => (
           <AchievementCard key={achievement.label} {...achievement} />
         ))}

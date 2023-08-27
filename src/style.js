@@ -1,11 +1,11 @@
 const styles = {
   container: "max-w-[1400px] w-full  mx-auto px-10",
   heading2:
-    "font-poppins font-semibold xs:text-[48px] text-[40px] text-black xs:leading-[76.8px] leading-[66.8px] w-full",
+    "font-poppins font-semibold sm:text-[48px] text-[35px] text-black sm:leading-[76.8px] leading-[50.8px] w-full",
   paragraph:
     "font-poppins font-normal text-gray-600 text-[20px] leading-[30.8px]",
 
-  sectionParagraph: "text-gray-500 font-poppins text-[18px]",
+  sectionParagraph: "text-gray-500 font-poppins sm:text-[18px]  text-base",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",

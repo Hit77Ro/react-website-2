@@ -9,7 +9,7 @@ const Hero = () => (
           {" "}
           start to success{" "}
         </h1>
-        <h2 className="font-poppins text-[50px] font-semibold sm:text-[64px]">
+        <h2 className="font-poppins text-[40px] font-semibold  sm:text-[64px]">
           Access To <span className="text-gradient "> 5000+</span> Courses from{" "}
           <span className="text-gradient">300</span> Instructors & Institutions
         </h2>
