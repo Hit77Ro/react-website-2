@@ -17,7 +17,7 @@ export const navLinks = ["home", "about", "support", "platform", "pricing"];
 export const achievements = [
   {
     Card: (
-      <div className="rounded-xl bg-[#E9F8F3] p-5">
+      <div className={`rounded-xl bg-[#E9F8F3] px-3 sm:p-5 py-1 ${styles.flexCenter}`}>
         <SlGraduation size={30} style={{ color: "#1A906B" }} />
       </div>
     ),
@@ -28,7 +28,7 @@ export const achievements = [
   },
   {
     Card: (
-      <div className="rounded-xl bg-[#FFFAF5] p-5">
+      <div className={`rounded-xl bg-[#FFFAF5] px-3 sm:p-5 py-1 ${styles.flexCenter}`}>
         <FiVideo size={30} style={{ color: "#FFC27A" }} />
       </div>
     ),
@@ -39,7 +39,7 @@ export const achievements = [
   },
   {
     Card: (
-      <div className="rounded-xl bg-[#FFEEF0] p-5">
+      <div className={`rounded-xl bg-[#FFEEF0] px-3 sm:p-5 py-1 ${styles.flexCenter}`}>
         <SlGraduation size={30} style={{ color: "#ED4459" }} />
       </div>
     ),
@@ -50,7 +50,7 @@ export const achievements = [
   },
   {
     Card: (
-      <div className="rounded-xl bg-[#F0F7FF] p-5">
+      <div className={`rounded-xl bg-[#F0F7FF] px-3 sm:p-5 py-1 ${styles.flexCenter}`}>
         <SlPeople size={30} style={{ color: "#0075FD" }} />
       </div>
     ),
@@ -71,6 +71,7 @@ import { AiOutlineCamera } from "react-icons/ai";
 import { BiData } from "react-icons/bi";
 import { MdAttachMoney } from "react-icons/md";
 import { FaUniversity } from "react-icons/fa";
+import styles from "../style";
 
 export const categories = [
   { icon: <BsVectorPen size={30} />, label: "Design" },

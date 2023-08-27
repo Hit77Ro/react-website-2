@@ -32,7 +32,7 @@ const Hero = () => (
         <img src={heroImg} alt="hero  image" className="object-cover" />
       </div>
     </div>
-    <div className={`${layout.sectionInfo}  items-center gap-y-2`}>
+    <div className={`${layout.sectionInfo}  items-center gap-y-4`}>
       <h3 className="text-[27px] font-semibold text-blue-950">
         Trusted by over 25,000 teams around the world.
       </h3>
@@ -40,7 +40,7 @@ const Hero = () => (
         Leading companies use the same courses to help employees keep their
         skills fresh.
       </p>
-      <div className="flex flex-wrap gap-x-4">
+      <div className="flex flex-wrap justify-center gap-x-2 gap-y-6">
         {" "}
         {companies.map((company) => (
           <img key={crypto.randomUUID()} src={company} alt="company" />
